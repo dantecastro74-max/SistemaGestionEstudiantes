@@ -1,0 +1,21 @@
+
+# Archivos compilados de Java
+*.class
+
+# Carpeta de compilación
+bin/
+build/
+out/
+target/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuraciones locales del IDE
+.vscode/
+.idea/
