@@ -1,18 +1,82 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Sistema de Gestión de Estudiantes
 
-## Folder Structure
+## Descripción
+Aplicación desarrollada en Java que permite gestionar
+información básica de estudiantes mediante los
+principios de la Programación Orientada a Objetos (POO).
 
-The workspace contains two folders by default, where:
+## Objetivo
+Demostrar el uso de clases, atributos, objetos,
+constructores y métodos mediante una aplicación
+funcional desarrollada en Java.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologías utilizadas
+- Java 21
+- Visual Studio Code
+- Git
+- GitHub
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Estructura del proyecto
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+src/
+- App.java
+- Estudiante.java
 
-## Dependency Management
+## Clases principales
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Estudiante.java
+Representa a un estudiante mediante los atributos:
+- Matrícula
+- Nombre
+- Carrera
+- Promedio
+
+Contiene los siguientes métodos:
+
+- mostrarInformacion(): muestra los datos del estudiante.
+- actualizarPromedio(): modifica el promedio académico.
+- estaAprobado(): determina si el estudiante aprobó.
+
+También incluye un constructor para inicializar
+los atributos al crear un objeto.
+
+### App.java
+Es la clase principal de la aplicación.
+
+Contiene el método main(), encargado de:
+1. Crear dos objetos de tipo Estudiante.
+2. Mostrar sus datos académicos.
+3. Verificar si aprobaron.
+4. Actualizar el promedio de un estudiante.
+5. Mostrar los resultados en consola.
+
+## Conceptos de POO aplicados
+- Clases y atributos
+- Encapsulamiento
+- Constructores
+- Instanciación de objetos
+- Métodos con parámetros
+- Métodos con valores de retorno
+
+## Ejecución
+1. Abrir el proyecto en Visual Studio Code.
+2. Tener instalado Java JDK 21.
+3. Abrir el archivo src/App.java.
+4. Ejecutar el método main() mediante Run.
+5. Consultar los resultados en la terminal.
+
+## Pruebas realizadas
+Se verificó:
+- La creación correcta de objetos.
+- La visualización de información.
+- La actualización del promedio.
+- La identificación de estudiantes aprobados y reprobados.
+- La depuración mediante breakpoints en Visual Studio Code.
+
+## Autor
+Dante Castro
+
+## Propósito
+Proyecto académico para la asignatura
+Programación Orientada a Objetos.
